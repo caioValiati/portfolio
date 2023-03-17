@@ -24,10 +24,10 @@ export function Header({props}) {
                 className={`hamburguer-btn`}
                 onClick={() => { setHamburguerActive(!hamburguerActive) }}
             >
-                <img src={`../../../public/media/icons/hamburger-${logoThemeColor}.png`} />
+                <img src={`media/icons/hamburger-${logoThemeColor}.png`} />
             </button>
             <Link to={'/'} >
-                    <img src={`../../../public/media/logo/signature-short-${logoThemeColor}.png`} alt="Logo" className="logo" />            
+                    <img src={`media/logo/signature-short-${logoThemeColor}.png`} className="logo" />            
             </Link>
             <div className={`menu-container ${hamburguerActive}`}>
                 <ul className="menu">
@@ -54,7 +54,7 @@ export function Header({props}) {
                     <button
                         className="dropdown-menu"
                         onClick={() => { setDropdownMenuActive(!dropdownMenuActive) }}
-                    ><img src={`public/media/icons/language-${logoThemeColor}.png`} /></button>
+                    ><img src={`media/icons/language-${logoThemeColor}.png`} /></button>
                 </div>
                 <div className={`dropdown-menu-${dropdownMenuActive}`}>
                     <ul className="dropdown-select">
