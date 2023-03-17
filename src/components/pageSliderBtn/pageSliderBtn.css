@@ -1,0 +1,39 @@
+.see-more-btn {
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    margin-top: 30px;
+    padding: 10px 50px 20px 0 ;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+.see-more-btn:hover .p.see-more{
+    text-decoration: underline;
+}
+
+.p .see-more{
+    margin: 0 15px 0 0;
+    font-weight: 100;
+    font-family: Blorado, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    color: var(--font-color);
+}
+
+.see-more-btn img {
+    width: 1.8rem;
+    height: 1.4rem;
+    color: var(--font-color);
+    animation: arrow-bouncing 1s ease infinite;
+    margin-left: 10px;
+}
+
+@keyframes arrow-bouncing {
+    0%    {transform: translateX(0%)}
+    25%   {transform: translateX(70%)}
+    50%   {transform: translateX(70%)}
+    50%   {transform: translateX(70%)}
+    100%  {transform: translateX(0%)}
+}

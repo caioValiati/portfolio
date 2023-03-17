@@ -1,0 +1,36 @@
+.home-container p{
+    margin-top: 20px;
+}
+
+.hello-container {
+    display: flex;
+}
+
+#hand {
+    width: fit-content;
+    transform-origin: bottom right;
+    animation: shake 1.5s ease-in-out 0.1s infinite alternate;
+}
+
+@keyframes shake {
+    from {
+       transform: rotate(10deg);
+    }
+    to {
+      transform-origin:center center;
+      transform: rotate(0deg);
+    }
+   
+}
+
+@media screen and (max-width: 1200px) {
+    .home-container h1 {
+        width: 400px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .home-container h1 {
+        width: 200px;
+    }
+}
+
