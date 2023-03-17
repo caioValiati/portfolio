@@ -27,9 +27,7 @@ export function Header({props}) {
                 <img src={`../../../public/media/icons/hamburger-${logoThemeColor}.png`} />
             </button>
             <Link to={'/'} >
-                <div className="logo-container">
-                    <img src={`../../../public/media/logo/signature-short-${logoThemeColor}.png`} alt="Logo" className="logo" />
-                </div>
+                    <img src={`../../../public/media/logo/signature-short-${logoThemeColor}.png`} alt="Logo" className="logo" />            
             </Link>
             <div className={`menu-container ${hamburguerActive}`}>
                 <ul className="menu">
