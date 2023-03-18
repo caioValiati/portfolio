@@ -61,7 +61,7 @@ export function ProjectsPage() {
           }
           
         </div>
-        <PageSliderBtn text={langTexts[`${language}`].projects.pageSliderBtn} theme={theme} route='contact' />
+        <PageSliderBtn text={langTexts[`${language}`].projects.pageSliderBtn} theme={theme} route='resume' />
       </motion.div>
     );
   }

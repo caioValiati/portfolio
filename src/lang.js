@@ -5,7 +5,7 @@ export function changeLanguage(lang) {
 export const langTexts = {
     title: " | Caio Geraldo | Developer",
     br: {
-        menu: ["Sobre mim", "Projetos", "Contato", "Início"],
+        menu: ["Sobre mim", "Projetos", "Contato", "Início", "Currículo"],
         dropdownMenu: ["Selecione sua língua", "Português", "Inglês", "Tema", "Mudar tema"],
         home: {
             header: "Olá, eu sou Caio Geraldo",
@@ -112,6 +112,10 @@ export const langTexts = {
         projects: {
             header: "Projetos.",
             body: [],
+            pageSliderBtn: "Veja mais no meu Currículo"
+        },
+        resume: {
+            header: "Currículo.",
             pageSliderBtn: "Convencido a me contatar agora?"
         },
         contact: {
@@ -125,7 +129,7 @@ export const langTexts = {
         }
     },
     eua: {
-        menu: ["About", "Projects", "Contact", "Home"],
+        menu: ["About", "Projects", "Contact", "Home", "Resume"],
         dropdownMenu: ["Select your language", "Portuguese", "English", "Theme", "Change theme"],
         home: {
             header: "Hello, i'm Caio Geraldo",
@@ -249,6 +253,10 @@ export const langTexts = {
 
                 }
             ],
+            pageSliderBtn: "See more in my resume"
+        },
+        resume: {
+            header: "Resumé.",
             pageSliderBtn: "Convenced to contact me now?"
         },
         contact: {

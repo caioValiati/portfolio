@@ -62,6 +62,9 @@ export function Header({props}) {
                                         <Link to={'projects'}>{langTexts[`${lang}`].menu[1]}</Link>
                                     </li>
                                     <li className="option">
+                                        <Link to={'resume'}>{langTexts[`${lang}`].menu[4]}</Link>
+                                    </li>
+                                    <li className="option">
                                         <Link to={'contact'}>{langTexts[`${lang}`].menu[2]}</Link>
                                     </li>
                                 </ul>
@@ -118,6 +121,9 @@ export function Header({props}) {
                         </li>
                         <li className="option">
                             <Link to={'projects'}>{langTexts[`${lang}`].menu[1]}</Link>
+                        </li>
+                        <li className="option">
+                            <Link to={'resume'}>{langTexts[`${lang}`].menu[4]}</Link>
                         </li>
                         <li className="option">
                             <Link to={'contact'}>{langTexts[`${lang}`].menu[2]}</Link>
