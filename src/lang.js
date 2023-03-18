@@ -111,6 +111,7 @@ export const langTexts = {
         },
         projects: {
             header: "Projetos.",
+            body: [],
             pageSliderBtn: "Convencido a me contatar agora?"
         },
         contact: {
@@ -233,6 +234,21 @@ export const langTexts = {
         },
         projects: {
             header: "Projects.",
+            body: [
+                {
+                    githubRepo: "portfolio",
+                    img: "alura",
+                    name: "Alura",
+                    description: "Este é um teste. Aqui viria a descrição do projeto.",
+                    tools: [
+                        "React",
+                        "TypeScript",
+                        "Node.js",
+                        "Python"
+                    ]
+
+                }
+            ],
             pageSliderBtn: "Convenced to contact me now?"
         },
         contact: {

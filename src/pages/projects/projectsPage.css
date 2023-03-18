@@ -2,6 +2,10 @@
     margin-bottom: 5%;
 }
 
+.projects-container a {
+    text-decoration: none;
+}
+
 .projects {
     column-count: 2;
     column-gap: 20px;
@@ -32,6 +36,8 @@
     height: 100%;
     border-radius: 10px;
     padding: 0 7%;
+    opacity: 0;
+    transition: all 0.2s;
 }
 
 .project-info h3 {
@@ -47,21 +53,37 @@
     color: #ECF2FF;
 }
 
+.single-project-container:hover .project-info {
+    opacity: 1;
+    padding-bottom: 7%;
+}
+
+.project-tools-container {
+    display: flex;
+}
+
 .project-tool {
+    margin-right: 2%;
     width: fit-content;
     background-color: #ECF2FF;
-    border-radius: 10px;
+    opacity: 0.95;
+    border-radius: 15px;
     padding: 0 10px;
 }
 
 .project-tool p {
     color: #242424;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
 
 @media screen and (max-width: 800px) {
     .projects {
         column-count: 1;
+    }
+
+    .project-info {
+        opacity: 1;
+        padding-bottom: 7%;
     }
 }
 
