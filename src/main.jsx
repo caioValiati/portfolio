@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import ReactDOM from 'react-dom/client'
 import './assets/css/index.css'
-import { AnimatePresence } from "framer-motion";
 import { App } from '.'
 import { HomePage } from './pages/home/homePage'
 import { AboutPage } from './pages/about/AboutPage'
