@@ -40,21 +40,23 @@ export const MouseTrailer = () => {
       >
         <div className="main-cursor-background"></div>
       </div>
+      <AnimatePresence>
       {
         interacting && (
           <motion.div 
-            initial={{ opacity: 0,  }}
-            animate={{ opacity: 1,  }}
+            initial={{ opacity: 0  }}
+            animate={{ opacity: 1  }}
             exit={{opacity: 0 }}
             transition={{
-              duration: 0.2,
+              duration: 0.1,
             }}
             style={{transform: `translate(${mousePos.x - 25}px, ${mousePos.y - 30}px)`}}
             className="trailer-text">
-            Open
+            Click
           </motion.div>
         )
       }
+      </AnimatePresence>
       <div 
         className="secondary-cursor" 
         ref={secondaryCursor}

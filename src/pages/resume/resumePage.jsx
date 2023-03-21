@@ -3,10 +3,16 @@ import { langTexts } from "../../lang.js"
 import { useOutletContext } from "react-router-dom"
 import { PageSliderBtn } from '../../components/pageSliderBtn/PageSliderBtn'
 import { motion } from "framer-motion"
+import { useEffect } from "react"
 
 export function ResumePage() {
   const {language, setLanguage} = useOutletContext()
   const {theme, setTheme} = useOutletContext()
+  const {setPageTitle} = useOutletContext()
+
+  useEffect(() => {
+      setPageTitle("Resume")
+  }, [])
   
     return (
       <motion.div 

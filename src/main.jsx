@@ -6,7 +6,7 @@ import { HomePage } from './pages/home/homePage'
 import { AboutPage } from './pages/about/AboutPage'
 import { ProjectsPage } from './pages/projects/ProjectsPage'
 import { ContactPage } from './pages/contact/ContactPage'
-import { ResumePage } from './pages/resume/resumePage'
+import { ResumePage } from './pages/resume/ResumePage'
 import {
   createBrowserRouter,
   RouterProvider,
