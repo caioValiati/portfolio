@@ -1,0 +1,41 @@
+.main-cursor,
+.secondary-cursor,
+.trailer-text {
+  z-index: 10000;
+  pointer-events: none;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+  position: fixed;
+}
+
+.trailer-text {
+  text-align: center;
+  border-radius: 20px;
+  width: 50px;
+  background-color: rgba(141, 141, 141, 0.6);
+  color: var(--font-color);
+}
+
+.main-cursor {
+  background-color: rgba(141, 141, 141, 0.8);
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+}
+
+.secondary-cursor {
+  border: 2px solid rgba(141, 141, 141, 0.8);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  transition: all 0.15s;
+}
+
+@media screen and (max-width: 800px) {
+  .secondary-cursor,
+  .main-cursor {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+

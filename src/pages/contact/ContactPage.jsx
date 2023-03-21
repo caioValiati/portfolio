@@ -17,8 +17,6 @@ export function ContactPage() {
       setPageTitle("Contact")
   }, [])
 
-
-  
     return (
       <motion.div 
         initial={{ opacity: 0 }} 
@@ -42,7 +40,7 @@ export function ContactPage() {
             placeholder={langTexts[`${language}`].contact.body[2]}
             onChange={(e) => setContent(e.target.value)}
           />
-          <motion.input whileTap={{ scale: 0.95 }} type="submit" className="submit-btn" value={langTexts[`${language}`].contact.body[1]} />
+          <motion.input id="interactable" whileTap={{ scale: 0.95 }} type="submit" className="submit-btn" value={langTexts[`${language}`].contact.body[1]} />
         </form>
 
         <PageSliderBtn text={langTexts[`${language}`].contact.pageSliderBtn} theme={theme} route='' /> 

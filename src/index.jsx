@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import { Header } from "./components/header/header";
 import { SocialArea } from "./components/socialArea/SocialArea";
 import { langTexts } from "./lang";
+import { MouseTrailer } from "./components/mouseTrailer/MouseTrailer"
 
 
 export function App() {
@@ -33,6 +34,7 @@ export function App() {
 
     return (
         <div className="index-container">
+            <MouseTrailer />
             <Header props={[setLanguage, language, setTheme]}/>
             <div className="page-container">
                     <Outlet context={{language, setLanguage, theme, setTheme, setPageTitle}} />

@@ -41,7 +41,7 @@ export function HomePage() {
                 <p className="p">
                     { langTexts[`${language}`].home.descriptions[1] }
                     { langTexts[`${language}`].home.descriptionsMarkers.map(
-                        (marker) => { return ( <React.Fragment key={marker.text} ><Link  className="marker" to={`http://127.0.0.1:5173/${marker.route}`}>{marker.text}</Link>{", "}</React.Fragment> ) }
+                        (marker) => { return ( <React.Fragment key={marker.text} ><Link id="interactable" className="marker" to={`http://127.0.0.1:5173/${marker.route}`}>{marker.text}</Link>{", "}</React.Fragment> ) }
                     ) }
                     { langTexts[`${language}`].home.emailConvite } { <b className="marker">caio.b.valiati@gmail.com</b> }
                     <PageSliderBtn text={langTexts[`${language}`].home.pageSliderBtn} theme={theme} route='about' />

@@ -36,7 +36,7 @@ export function Header({props}) {
             >
                 <img src={`media/icons/hamburger-${logoThemeColor}.png`} />
             </button>
-            <Link to={'/'} >
+            <Link id="interactable" to={'/'} >
                     <img src={`media/logo/signature-short-${logoThemeColor}.png`} className="logo" />            
             </Link>
             
@@ -116,16 +116,16 @@ export function Header({props}) {
                 <motion.div  
                     className={`menu-container ${hamburguerActive}`}>
                     <ul className="menu">
-                        <li className="option">
+                        <li className="option" id="interactable">
                             <Link to={'about'}>{langTexts[`${lang}`].menu[0]}</Link>
                         </li>
-                        <li className="option">
+                        <li className="option" id="interactable">
                             <Link to={'projects'}>{langTexts[`${lang}`].menu[1]}</Link>
                         </li>
-                        <li className="option">
+                        <li className="option" id="interactable">
                             <Link to={'resume'}>{langTexts[`${lang}`].menu[4]}</Link>
                         </li>
-                        <li className="option">
+                        <li className="option" id="interactable">
                             <Link to={'contact'}>{langTexts[`${lang}`].menu[2]}</Link>
                         </li>
                     </ul>
@@ -138,10 +138,11 @@ export function Header({props}) {
                     }} >  
                         <i className="fa-solid fa-circle-half-stroke"></i>
                     </button>
-                    <div className="dropdown-menu-btn">
-                        <button
+                    <div 
+                        onClick={() => { setDropdownMenuActive(!dropdownMenuActive) }}
+                        className="dropdown-menu-btn">
+                        <button 
                             className="dropdown-menu"
-                            onClick={() => { setDropdownMenuActive(!dropdownMenuActive) }}
                         ><img src={`media/icons/language-${logoThemeColor}.png`} /></button>
                     </div>
                     <div className={`dropdown-menu-${dropdownMenuActive}`}>
