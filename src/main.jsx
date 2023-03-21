@@ -2,11 +2,11 @@ import React, { useState } from 'react'
 import ReactDOM from 'react-dom/client'
 import './assets/css/index.css'
 import { App } from '.'
-import { HomePage } from './pages/home/HomePage'
+import { HomePage } from './pages/home/homePage'
 import { AboutPage } from './pages/about/AboutPage'
 import { ProjectsPage } from './pages/projects/ProjectsPage'
 import { ContactPage } from './pages/contact/ContactPage'
-import { ResumePage } from './pages/resume/ResumePage'
+import { ResumePage } from './pages/resume/resumePage'
 import {
   createBrowserRouter,
   RouterProvider,
