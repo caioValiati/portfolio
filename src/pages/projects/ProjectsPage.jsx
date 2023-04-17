@@ -35,7 +35,7 @@ export function ProjectsPage() {
                   <a target={"_blank"} href={`https://github.com/caioValiati/${project.githubRepo}`}>
                     <div 
                       id="interactable"
-                      style={{ backgroundImage:`url(media/icons/${project.img}.jpg)`,
+                      style={{ backgroundImage:`url(media/assets/${project.img}.png)`,
                                 height: `${PROJECTS_SIZES[Math.floor(Math.random() * PROJECTS_SIZES.length)]}px` }}
                       className="single-project-container">
                       <div 
