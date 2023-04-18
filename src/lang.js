@@ -255,18 +255,19 @@ export const langTexts = {
             header: "Projects.",
             body: [
                 {
-                    githubRepo: "portfolio",
-                    img: "alura",
-                    name: "Alura",
-                    description: "Este é um teste. Aqui viria a descrição do projeto.",
-                    tools: [
-                        "React",
-                        "TypeScript",
-                        "Node.js",
-                        "Python"
-                    ]
-
-                }
+                    name: "Landing page",
+                    img: "landingpage",
+                    tools: ["React.js", "TypeScript", "Tailwind CSS", "Vite"],
+                    description: "A Landing page for handymen, simple, clean and professional, highlighting the services offered and the contact section.",
+                    githubRepo: "PauloCesar"
+                },
+                {
+                    name: "Weather App",
+                    img: "weatherapp",
+                    tools: ["React.js", "TypeScript", "Tailwind CSS", "API's", "Vite"],
+                    description: "A Weather App with an intuitive interface and accurate weather forecast information for specific locations, including current, minimum, maximum temperature and more.",
+                    githubRepo: "WeatherApp"
+                },
             ],
             pageSliderBtn: "See more in my resume"
         },
