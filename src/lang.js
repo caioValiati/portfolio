@@ -115,14 +115,14 @@ export const langTexts = {
                 {
                     name: "Landing page",
                     img: "landingpage",
-                    tools: ["React.js", "TypeScript", "Tailwind CSS"],
+                    tools: ["React.js", "TypeScript", "Tailwind CSS", "Vite"],
                     description: "Uma Landing page para faz-tudo, simples, limpa e profissional, com destaque para serviços oferecidos e seção de contato.",
                     githubRepo: "PauloCesar"
                 },
                 {
                     name: "App de clima",
                     img: "weatherapp",
-                    tools: ["React.js", "TypeScript", "Tailwind CSS", "API's"],
+                    tools: ["React.js", "TypeScript", "Tailwind CSS", "API's", "Vite"],
                     description: "Um Weather App com interface intuitiva e informações precisas sobre a previsão do tempo para locais específicos, incluindo temperatura atual, mínima, máxima e mais.",
                     githubRepo: "WeatherApp"
                 },
