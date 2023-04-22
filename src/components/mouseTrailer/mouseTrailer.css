@@ -33,7 +33,8 @@
 
 @media screen and (max-width: 800px) {
   .secondary-cursor,
-  .main-cursor {
+  .main-cursor,
+  .trailer-text {
     visibility: hidden;
     opacity: 0;
   }

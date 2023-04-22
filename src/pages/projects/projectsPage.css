@@ -60,6 +60,7 @@
 
 .project-tools-container {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .project-tool {
