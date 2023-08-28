@@ -17,17 +17,17 @@
 }
 
 .main-cursor {
-  background-color: rgba(141, 141, 141, 0.8);
+  background-color: rgba(141, 141, 141, 0.5);
   border-radius: 50%;
   width: 8px;
   height: 8px;
 }
 
 .secondary-cursor {
-  border: 2px solid rgba(141, 141, 141, 0.8);
+  border: 2px solid rgba(141, 141, 141, 0.3);
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   transition: all 0.15s;
 }
 
