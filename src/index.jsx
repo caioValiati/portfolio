@@ -1,10 +1,10 @@
+import React, { useEffect, useState } from "react";
 import { Outlet } from "react-router-dom";
-import React, { useState, useEffect } from "react";
 import { Header } from "./components/header/header";
+import { MouseTrailer } from "./components/mouseTrailer/MouseTrailer";
 import { SocialArea } from "./components/socialArea/SocialArea";
 import { langTexts } from "./lang";
-import { MouseTrailer } from "./components/mouseTrailer/MouseTrailer"
-
+import ThreeScene from "./components/globe/Globe";
 
 export function App() {
 
@@ -33,7 +33,8 @@ export function App() {
     }, [theme])
 
     return (
-        <div className="index-container">
+        <div className="index-container" style={{overflow: 'hidden'}}>
+            <ThreeScene />
             <MouseTrailer />
             <Header props={[setLanguage, language, setTheme]}/>
             <div className="page-container">

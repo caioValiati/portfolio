@@ -2,6 +2,10 @@
     margin-top: 20px;
 }
 
+.home-container {
+    overflow: hidden;
+}
+
 .hello-container {
     display: flex;
 }

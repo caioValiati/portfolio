@@ -3,6 +3,7 @@ import { useOutletContext } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { langTexts } from "../../lang";
 import { PageSliderBtn } from '../../components/pageSliderBtn/PageSliderBtn'
+import ThreeScene from "../../components/globe/Globe";  
 import { motion } from "framer-motion"
 import "./homePage.css"
 
