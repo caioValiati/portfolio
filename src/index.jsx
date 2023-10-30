@@ -34,7 +34,7 @@ export function App() {
 
     return (
         <div className="index-container" style={{overflow: 'hidden'}}>
-            <ThreeScene />
+            <ThreeScene theme={theme}/>
             <MouseTrailer />
             <Header props={[setLanguage, language, setTheme]}/>
             <div className="page-container">

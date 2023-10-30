@@ -24,6 +24,10 @@
   -webkit-text-size-adjust: 100%;
 }
 
+canva {
+  background-color: var(--background-color);
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
