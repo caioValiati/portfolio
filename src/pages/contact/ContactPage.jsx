@@ -1,17 +1,14 @@
-import { langTexts } from "../../lang";
-import { useOutletContext } from "react-router-dom";
-import './contactPage.css'
-import { PageSliderBtn } from '../../components/pageSliderBtn/PageSliderBtn'
-import { useState } from "react"
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
 import { useEffect } from "react";
+import { useOutletContext } from "react-router-dom";
+import { PageSliderBtn } from '../../components/pageSliderBtn/PageSliderBtn';
+import { langTexts } from "../../lang";
+import './contactPage.css';
 
 export function ContactPage() {
   const {language, setLanguage} = useOutletContext()
   const {theme, setTheme} = useOutletContext()
   const {setPageTitle} = useOutletContext()
-  const [ email,  setEmail ] = useState("")
-  const [ content,  setContent ] = useState("")
 
   useEffect(() => {
       setPageTitle("Contact")
@@ -33,12 +30,12 @@ export function ContactPage() {
           method="POST"
         >
           <input type="email"  
+            name="email"
             placeholder={"E-mail"}
-            onChange={(e) => setEmail(e.target.value)}
           />
           <textarea type="text" 
+            name="message"
             placeholder={langTexts[`${language}`].contact.body[2]}
-            onChange={(e) => setContent(e.target.value)}
           />
           <motion.input id="interactable" whileTap={{ scale: 0.95 }} type="submit" className="submit-btn" value={langTexts[`${language}`].contact.body[1]} />
         </form>
