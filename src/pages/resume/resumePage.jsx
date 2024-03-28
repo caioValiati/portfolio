@@ -1,9 +1,9 @@
-import "./resumePage.css"
-import { langTexts } from "../../lang.js"
-import { useOutletContext } from "react-router-dom"
-import { PageSliderBtn } from '../../components/pageSliderBtn/PageSliderBtn'
 import { motion } from "framer-motion"
 import { useEffect } from "react"
+import { useOutletContext } from "react-router-dom"
+import { PageSliderBtn } from '../../components/pageSliderBtn/PageSliderBtn'
+import { langTexts } from "../../lang.js"
+import "./resumePage.css"
 
 export function ResumePage() {
   const {language, setLanguage} = useOutletContext()
@@ -24,7 +24,7 @@ export function ResumePage() {
         }}
         className="resume-container">
         <h1 className="h1">{langTexts[`${language}`].resume.header}</h1>
-        <img src={`media/resume/curriculo-${language}.png`} className="resume" />
+        <embed src={`../../../public/media/resume/currículo-${language}.pdf#toolbar=0`} type="application/pdf" width="100%" height="920px" />
         <PageSliderBtn text={langTexts[`${language}`].resume.pageSliderBtn} theme={theme} route={"contact"} />
       </motion.div>
     );
