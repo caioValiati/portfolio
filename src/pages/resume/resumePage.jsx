@@ -24,7 +24,7 @@ export function ResumePage() {
         }}
         className="resume-container">
         <h1 className="h1">{langTexts[`${language}`].resume.header}</h1>
-        <embed src={`../../../public/media/resume/currículo-${language}.pdf#toolbar=0`} type="application/pdf" width="100%" height="920px" />
+        <img src={`media/resume/currículo-${language}.png`} className="resume" />
         <PageSliderBtn text={langTexts[`${language}`].resume.pageSliderBtn} theme={theme} route={"contact"} />
       </motion.div>
     );
