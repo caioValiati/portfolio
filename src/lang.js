@@ -10,10 +10,10 @@ export const langTexts = {
         home: {
             header: "Olá, eu sou Caio Geraldo",
             descriptions: [
-                "Desenvolvedor frontend, técnico em análise e desenvolvimento de sistemas, estudante em curso superior de engenharia de software, entusiasta de ciência da computação e curioso",
+                "Desenvolvedor fullstack, técnico em análise e desenvolvimento de sistemas, estudante em curso superior de engenharia de software, entusiasta de ciência da computação e curioso",
                 "Trabalho para criar websites bem feitos e detalhados. Olhe mais "
             ],
-            descriptionsMarkers: [{text: 'sobre mim', route: 'about'}, {text: 'meus projetos', route: 'projects'}, {text: 'currículo', route: 'resume'}, {text: 'contato', route: 'contact'}],
+            descriptionsMarkers: [{ text: 'sobre mim', route: 'about' }, { text: 'meus projetos', route: 'projects' }, { text: 'currículo', route: 'resume' }, { text: 'contato', route: 'contact' }],
             emailConvite: " ou me mande um email em",
             pageSliderBtn: "Veja mais sobre mim"
         },
@@ -21,15 +21,15 @@ export const langTexts = {
             header: 'Sobre mim.',
             topics: [
                 {
-                    title: "Apresentação", 
+                    title: "Apresentação",
                     body: "Tenho 18 anos, moro em Rio Verde, Goiás, e sou um desenvolvedor web front-end com paixão por criar interfaces de usuário modernas e interativas. Tenho experiência em projetos de alta qualidade e estou sempre em busca de aprimorar minhas habilidades. Estou animado para trabalhar em projetos desafiadores e contribuir para a criação de experiências incríveis para os usuários."
                 },
                 {
-                    title: "Ferramentas", 
+                    title: "Ferramentas",
                     body: [
                         {
                             img: "python",
-                            txt:"O python é uma linguagem de programação alto nível multiparadigma, utilizo essa ferramenta para controle de dados e criação de API's."
+                            txt: "O python é uma linguagem de programação alto nível multiparadigma, utilizo essa ferramenta para controle de dados e criação de API's."
                         },
                         {
                             img: "html",
@@ -53,7 +53,7 @@ export const langTexts = {
                         },
                         {
                             img: "react",
-                            txt:  "O React é uma biblioteca front-end de Javascript, que traz consigo o paradigma declarativo, a componentização, a velocidade da virtual-dom e muito mais!."
+                            txt: "O React é uma biblioteca front-end de Javascript, que traz consigo o paradigma declarativo, a componentização, a velocidade da virtual-dom e muito mais!."
                         },
                         {
                             img: "react-router",
@@ -66,7 +66,7 @@ export const langTexts = {
                     ]
                 },
                 {
-                    title: "Habilidades", 
+                    title: "Habilidades",
                     body: [
                         "Experiência com projetos envolvendo responsividade e usabilidade do produto.",
                         "Apto para trabalhar com metodologias ágeis, bem como tenho prática com agile skills para programação.",
@@ -77,7 +77,7 @@ export const langTexts = {
                     ]
                 },
                 {
-                    title: "Formações", 
+                    title: "Formações",
                     body: [
                         {
                             img: "senai",
@@ -149,10 +149,10 @@ export const langTexts = {
         home: {
             header: "Hello, i'm Caio Geraldo",
             descriptions: [
-                "Frontend developer, systems analysis and development technician, undergraduate student of software engineering, computer science enthusiast and curious",
+                "Fullstack developer, systems analysis and development technician, undergraduate student of software engineering, computer science enthusiast and curious",
                 "I work to create well-made and detailed websites. Look more "
             ],
-            descriptionsMarkers: [{text: 'about me', route: 'about'}, {text: 'my projects', route: 'projects'}, {text: 'resume', route: 'resume'}, {text: 'contact', route: 'contact'}],
+            descriptionsMarkers: [{ text: 'about me', route: 'about' }, { text: 'my projects', route: 'projects' }, { text: 'resume', route: 'resume' }, { text: 'contact', route: 'contact' }],
             emailConvite: " or send me an email on",
             pageSliderBtn: "See more about me"
         },
@@ -160,16 +160,16 @@ export const langTexts = {
             header: 'About me.',
             topics: [
                 {
-                    title: "Presentation", 
+                    title: "Presentation",
                     body: "I'm 18 years old, I live in Rio Verde, Goiás, and I'm a front-end web developer with a passion for creating modern and interactive user interfaces. I have experience in high-quality projects and I'm always looking to improve my skills. I'm excited to work on challenging projects and contribute to creating amazing experiences for users."
 
                 },
                 {
-                    title: "Tools", 
+                    title: "Tools",
                     body: [
                         {
                             img: "python",
-                            txt:"Python is a high-level multiparadigm programming language, I like to use this tool to control data and create APIs."
+                            txt: "Python is a high-level multiparadigm programming language, I like to use this tool to control data and create APIs."
                         },
                         {
                             img: "html",
@@ -193,7 +193,7 @@ export const langTexts = {
                         },
                         {
                             img: "react",
-                            txt:  "React is a Javascript front-end library, which brings with it the declarative paradigm, componentization, virtual-dom speed and much more!."
+                            txt: "React is a Javascript front-end library, which brings with it the declarative paradigm, componentization, virtual-dom speed and much more!."
                         },
                         {
                             img: "react-router",
@@ -204,10 +204,10 @@ export const langTexts = {
                             txt: "Git is the world's most widely used distributed VCS (Version Control System). and the best!."
                         }
                     ]
-                    
+
                 },
                 {
-                    title: "Skills", 
+                    title: "Skills",
                     body: [
                         "Experience with projects involving product responsiveness and usability.",
                         "Able to work with agile methodologies, as well as have practice with agile programming skills.",
@@ -218,7 +218,7 @@ export const langTexts = {
                     ]
                 },
                 {
-                    title: "Formations", 
+                    title: "Formations",
                     body: [
                         {
                             img: "senai",
